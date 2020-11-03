@@ -54,36 +54,27 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="container">
-          <h1 class="display-3">Dublin</h1>
+          <h1 class="display-3">Newsletter</h1>
           <p>The Weather Channel is dedicated to forecasting weather conditions to the cities of Dublin, London, Belfast and Cardiff</p>
           <p><a class="btn btn-primary btn-lg" href="latestnews.html" role="button">Latest News</a></p>
         </div>
       </div>
 
-      <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-          
-          <div class="col-md-4">
-            <h2>Belfast</h2>
-            <p>Belfast, the capital and largest city of Northern Ireland, is located at the threshold of the River Lagan and is surrounded by low hills. It is a natural location for the shipping trade, probably best known for being where the RMS Titanic was built.</p>
-            <p><a class="btn btn-secondary" href="belfast.html" role="button">Weather Forecast</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>London</h2>
-            <p>London is the capital and largest city of England and the United Kingdom. The city stands on the River Thames in the south-east of England, at the head of its 50-mile (80 km) estuary leading to the North Sea. London has been a major settlement for two millennia.</p>
-            <p><a class="btn btn-secondary" href="london.html" role="button">Weather Forecast</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Cardiff</h2>
-            <p>Cardiff, Welsh Caerdydd, city and capital of Wales. Cardiff exists as both a city and a county within the Welsh unitary authority system of local government. It is located within the historic county of Glamorgan on the Bristol Channel at the mouth of the River Taff.</p>
-            <p><a class="btn btn-secondary" href="cardiff.html" role="button">Weather Forecast</a></p>
-          </div>
+      <div class="container-fluid ">
+           <div class="center-form">
+                <form onsubmit="return sendMail(this);">
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+                    <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+                </form>
+            </div>
         </div>
+    
 
         <hr>
 
-      </div> <!-- /container -->
+    
 
     </main>
 
