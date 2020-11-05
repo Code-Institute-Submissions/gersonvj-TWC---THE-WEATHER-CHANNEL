@@ -3,3 +3,12 @@
     margin: 0 auto;
     max-width: 70%;
 }
+
+.jumbotrom {
+    background-image: url("../images/london.jpg")
+}
+
+.h1spancolor {
+    color: grey;
+
+}
