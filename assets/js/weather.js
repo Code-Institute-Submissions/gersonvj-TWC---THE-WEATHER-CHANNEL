@@ -1,7 +1,7 @@
 const settings = {
 	"async": true,
 	"crossDomain": true,
-    "url": "https://rapidapi.p.rapidapi.com/forecast.json?q=London&days=3",
+    "url": "https://rapidapi.p.rapidapi.com/forecast.json?q=Dublin&days=3",
     "contentType": "application/json",
     "dataType": 'json',
 	"method": "GET",
@@ -16,8 +16,32 @@ dataType: 'json'
 
 $.ajax(settings).done(function (response) {
     console.log(response);
-    var currentWeatherCelsos = response.current.temp_c;
-   console.log(currentWeatherCelsos);
+
+    var currentWeatherCelsius = response.current.temp_c;
+    var currentlastupdate = response.current.last_updated;
+    var currentcondition = response.current.condition.icon;
+    var currentfeel = response.current.feelslike_c;
+    console.log(currentcondition);
+    
+    let temperatureDublin = document.querySelector(".temperatureDublin");
+    temperatureDublin.textContent = currentWeatherCelsius;
+
+    let lastupdateDublin = document.querySelector(".lastupdateDublin");
+    lastupdateDublin.textContent = currentlastupdate;
+
+    let conditionDublin = document.querySelector(".conditionDublin");
+    conditionDublin.textContent = currentcondition;
+
+    let feelDublin = document.querySelector(".feelDublin");
+    feelDublin.textContent = currentfeel;
+
+
+
+
+
+    
+   
+
 
  });
 
