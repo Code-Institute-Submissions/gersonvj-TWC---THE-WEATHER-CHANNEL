@@ -12,12 +12,11 @@ const settings = {
 $.ajax(settings).done(function (response) {
     console.log(response);
     var parsed = JSON.parse(response);
+    
     var firstnews = parsed.articles[0].title;
+    var secnews = response.articles.summary;
+    var linknews = response.articles.link;
     
-    
-   
-    var secnews = response.current.last_updated;
-    var linknews = response.current.condition.icon;
     console.log(firstnews);
     
     let news1 = document.querySelector(".news1");
