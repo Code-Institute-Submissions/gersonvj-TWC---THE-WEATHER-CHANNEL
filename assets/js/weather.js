@@ -1,7 +1,16 @@
+let locations = ["dublin", "london", "belfast","cardiff"]
+locations.forEach(location => {
+    $(`#${location}`).onclick(function(){
+        getWeather(location)
+    })
+})
+
+function getWeather(location){
+
 const settings = {
 	"async": true,
 	"crossDomain": true,
-    "url": "https://rapidapi.p.rapidapi.com/forecast.json?q=Dublin&days=3",
+    "url": "https://rapidapi.p.rapidapi.com/forecast.json?q=${location}&days=3",
     "contentType": "application/json",
     "dataType": 'json',
 	"method": "GET",
@@ -40,10 +49,7 @@ $.ajax(settings).done(function (response) {
 
 
     
-   
-
-
- });
+ } });
 
 
 
