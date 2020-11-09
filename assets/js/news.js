@@ -22,6 +22,9 @@ $.ajax(settings).done(function (response) {
     var thirdnews3 = response.articles[2].title;
     var thirdnews3a = response.articles[2].summary;
     var thirdnews3b = response.articles[2].link;
+    var fourthnews4 = response.articles[3].title;
+    var fourthnews4a = response.articles[3].summary;
+    var fourthnews4b = response.articles[3].link;
     
     //first api news
     let news1 = document.querySelector(".news1");
@@ -50,7 +53,7 @@ $.ajax(settings).done(function (response) {
 
     //third api news
     let news3 = document.querySelector(".news3");
-    news3.textContent = thirdnews3b;
+    news3.textContent = thirdnews3;
 
     let news3a = document.querySelector(".news3a");
     news3a.textContent = thirdnews3a;
@@ -59,6 +62,18 @@ $.ajax(settings).done(function (response) {
     news3b.textContent = thirdnews3b;
 
     document.getElementById("news3b").href=  thirdnews3b;
+
+    //fourth api news
+    let news4 = document.querySelector(".news4");
+    news4.textContent = fourthnews4;
+
+    let news4a = document.querySelector(".news4a");
+    news4a.textContent = fourthnews4a;
+
+    let news4b = document.querySelector(".news4b");
+    news4b.textContent = fourthnews4b;
+
+    document.getElementById("news4b").href=  fourthnews4b;
 
    
 });
