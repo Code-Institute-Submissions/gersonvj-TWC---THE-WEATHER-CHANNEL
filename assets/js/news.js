@@ -1,7 +1,7 @@
 const settings = {
 	"async": true,
 	"crossDomain": true,
-	"url": "https://newscatcher.p.rapidapi.com/v1/search_free?q=weather&media=True&lang=en",
+	"url": "https://newscatcher.p.rapidapi.com/v1/search?q=weather&media=True&sort_by=relevancy&lang=en&country=gb&page=1",
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-key": "fb5430219bmshd4a41358e678d75p187a51jsn30d831ea960f",
@@ -11,11 +11,11 @@ const settings = {
 
 $.ajax(settings).done(function (response) {
     console.log(response);
-    var parsed = JSON.parse(response);
     
-    var firstnews = parsed.articles[0].title;
-    var secnews = response.articles.summary;
-    var linknews = response.articles.link;
+    
+    var firstnews = response.articles[0].title;
+    var secnews = response.articles[0].summary;
+    var linknews = response.articles[0].link;
     
     console.log(firstnews);
     
@@ -23,11 +23,12 @@ $.ajax(settings).done(function (response) {
     news1.textContent = firstnews;
 
     let news1a = document.querySelector(".news1a");
-    news1a.textContent = currentlastupdate;
+    news1a.textContent = secnews;
 
-    let news1b = document.querySelector(".news1b");
-    news1b.textContent = currentcondition;
+   let news1b = document.querySelector(".news-api-link");
+news1b.textContent = linknews;
 
-    let feelDublin = document.querySelector(".feelDublin");
-    feelDublin.textContent = currentfeel;
+document.getElementById("news-api-link").href=  linknews;
+
+   
 });
