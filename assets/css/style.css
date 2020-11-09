@@ -4,10 +4,10 @@
     max-width: 70%;
 }
 
-.jumbotrom {
-    background-image: url("../images/london.jpg")
-}
+.h1margin {
+    margin-top: 50px;
 
+}
 .h1spancolor {
     color: grey;
 
@@ -19,4 +19,37 @@
 
 .card {
     background:rgba(255,255,255, 0.8) !important;
+}
+
+.social-networks{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  
+}
+
+.social-networks li{
+  display: inline;
+  width: 100%;
+  
+}
+
+.social-networks i{
+  font-size: 120%;
+  color: #777777;
+  margin-left: 25px;
+}
+
+.fa-facebook:hover {
+    color: #fff;
+}
+.fa-twitter:hover {
+    color: #fff;
+}
+.fa-youtube:hover {
+    color: #fff;
+}
+.fa-instagram:hover{
+    color:#fff;
 }
