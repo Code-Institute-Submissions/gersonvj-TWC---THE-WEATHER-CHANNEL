@@ -65,3 +65,7 @@
 .marginNewsletter {
     margin-top: 50px;
 }
+
+.overflow {
+    overflow: hidden;
+}
