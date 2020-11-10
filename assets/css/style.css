@@ -13,7 +13,7 @@
 
 }
 .h1spancolor {
-    color: grey;
+    color: black;
 
 }
 
@@ -56,4 +56,8 @@
 }
 .fa-instagram:hover{
     color:#fff;
+}
+
+.linkwidth {
+    width: 50px;
 }

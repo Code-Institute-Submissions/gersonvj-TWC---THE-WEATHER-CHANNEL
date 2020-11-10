@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0054)https://getbootstrap.com/docs/4.0/examples/jumbotron/# -->
+
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,50 +25,50 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="index.html">T W C</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+            <a class="navbar-brand" href="index.html">T W C</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="newsletter.html">Newsletter</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="news.html">Latest News</a>
-          </li>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="newsletter.html">Newsletter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">Latest News</a>
+                </li>
           
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
 
-        <ul class="social-networks">
-         <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
-         <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
-         <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <ul class="social-networks">
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
          
-        </ul>
-      </form>
+                </ul>
+            </form>
         
-      </div>
+        </div>
     </nav>
 
-    <main role="main">
+    <main>
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron text-white jumbotron-image shadow" style="background-image: url(./assets/images/newsletter.jpg);">
-        <div class="container">
-          <h1 class="display-3">Newsletter</h1>
-          <p>The Weather Channel is dedicated to forecasting weather conditions to the cities of Dublin, London, Belfast and Cardiff</p>
-          <p>Subscribe to receive our Newsletter</p>
+      <!-- Main jumbotron to highlight the page user is into -->
+        <div class="jumbotron text-white jumbotron-image shadow" style="background-image: url(./assets/images/newsletter.jpg);">
+            <div class="container">
+                <h1 class="display-3">Newsletter</h1>
+                <p>The Weather Channel is dedicated to forecasting weather conditions to the cities of Dublin, London, Belfast and Cardiff</p>
+                <p>Subscribe to receive our Newsletter</p>
+            </div>
         </div>
-      </div>
-
-      <div class="container-fluid ">
+     <!-- Form to subscribe for newsletter -->
+        <div class="container-fluid ">
            <div class="center-form">
                 <form onsubmit="return sendMail(this);" method="POST">
                     <input type="text" name="name" class="form-control mt-5" id="fullname" placeholder="Name" required/>
@@ -77,22 +77,20 @@
                 </form>
             </div>
         </div>
-    
-
         <hr>
-
-    
+ 
 
     </main>
+    
+    <!-- page footer -->
+        <footer class="container">
+            <p>T W C © The Weather Channel</p>
+      
+        </footer>
 
-    <footer class="container">
-      <p>© Company 2017-2018</p>
-    </footer>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="assets/js/sendMail.js"></script>

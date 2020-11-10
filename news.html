@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0054)https://getbootstrap.com/docs/4.0/examples/jumbotron/# -->
+
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,99 +9,103 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <script src="https://kit.fontawesome.com/51dc8b3b8a.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
 
     <title>TWC - The Weather Channel</title>
 
   </head>
 
   <body>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="index.html">T W C</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="index.html">T W C</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="newsletter.html">Newsletter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">Latest News</a>
+                    </li>
+                </ul>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="newsletter.html">Newsletter</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="news.html">Latest News</a>
-          </li>
-          
-        </ul>
-         <form class="form-inline my-2 my-lg-0">
-         <ul class="social-networks">
-         <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
-         <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
-         <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <form class="form-inline my-2 my-lg-0">
+                    <ul class="social-networks">
+                        <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
          
-        </ul>
-      </form>
+                    </ul>
+                </form>
         
-      </div>
-    </nav>
+            </div>
+        </nav>
 
-    <main role="main">
+        <main>
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron text-white jumbotron-image shadow" style="background-image: url(./assets/images/latestnews.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
-        <div class="container h1margin">
-          <h1 class="display-3">The Weather Channel</h1>
-          <p>Our Latest News</p>
+        <!-- Main jumbotron to highlight the page user is into -->
+            <div class="jumbotron text-white jumbotron-image shadow" style="background-image: url(./assets/images/latestnews.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                <div class="container h1margin">
+                    <h1 class="display-3">The Weather Channel</h1>
+                    <p>Our Latest News</p>
           
-        </div>
-      </div>
+                </div>
+            </div>
 
-      <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-          
-          <div class="col-6">
-            <h2 class="news1">news title</h2>
-            <p class="news1a">news summary</p>
-            <a class="news-api-link" id="news-api-link" href=""></a>
+        <!-- 4 Rows of news -->    
+            <div class="container">
             
-          </div>
-          <div class="col-6">
-            <h2 class="news2">news title</h2>
-            <p class="news2a">news summary</p>
-            <a class="news2b" id="news2b" href=""></a>
-          </div>
-          <div class="col-6">
-             <h2 class="news3">news title</h2>
-            <p class="news3a">news summary</p>
-            <a class="news3b" id="news3b" href=""></a>
-          </div>
-
-          <div class="col-6">
-             <h2 class="news4">news title</h2>
-            <p class="news4a">news summary</p>
-            <a class="news4b" id="news4b" href=""></a>
-          </div>
+                <div class="row">
           
-        </div>
+                    <div class="col-md-12 mt-5">
+                        <h2 class="news1">news title</h2>
+                        <p class="news1a">news summary</p>
+                        <a class="news-api-link linkwidth" id="news-api-link" href=""></a>
+            
+                    </div>
 
-        <hr>
+                    <div class="col-md-12 mt-5">
+                        <h2 class="news2">news title</h2>
+                        <p class="news2a">news summary</p>
+                        <a class="news2b" id="news2b" href=""></a>
+                    </div>
 
-      </div> <!-- /container -->
+                    <div class="col-md-12 mt-5">
+                        <h2 class="news3">news title</h2>
+                        <p class="news3a">news summary</p>
+                        <a class="news3b" id="news3b" href=""></a>
+                    </div>
 
-    </main>
+                    <div class="col-md-12 mt-5">
+                        <h2 class="news4">news title</h2>
+                        <p class="news4a">news summary</p>
+                        <a class="news4b" id="news4b" href=""></a>
+                    </div>
+          
+                </div>
 
-    <footer class="container">
-      <p>© Company 2017-2018</p>
-    </footer>
+                    <hr>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+            </div> <!-- /container -->
+
+        </main>
+        
+
+        <!-- page footer -->
+        <footer class="container">
+            <p>T W C © The Weather Channel</p>
+      
+        </footer>
+
+    <!-- JavaScript -->
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
