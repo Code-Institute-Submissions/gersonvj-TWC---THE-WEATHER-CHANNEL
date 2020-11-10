@@ -60,17 +60,23 @@ As the user opens the home page, will see a jumbotrom that highlights the page t
 <ul>
     <li>API that bring the latest weather forecast and weather-related news</li>
   </ul>
+    <h4>EmailJS: https://www.emailjs.com/</h4>
+<ul>
+    <li>Connect email service to send emails via JavaScript</li>
+  </ul>
   
   
 
 ## Test
+<ul>
+<li>05/11/2020 - Not reponsive for phone devices, background pictures for jumbotrom not working, h1 headers need more margin.
+<li>06/11/2020 - Homepage responsive for all devices, newsletter and latest news not responsive for phone devices.
+<li>08/11/2020 - Weather cards background not working, weather icon from API not showing in the cards. 
+<li>09/11/2020 - Newsletter responsive for phone devices
+<li>09/11/2020 - Latest news link are outside the row, making not responsive.
+<li>10/11/2020 - All pages are responsive. Some images are streching.
 
-05/11/2020 - Not reponsive for phone devices
-06/11/2020 - Homepage responsive for all devices, newsletter and latest news not responsive for phone devices.
-09/11/2020 - Newsletter responsive for phone devices
-Using Google Chrome inspect, any devices bigger than 300px width are fully responsive. 
-
-Actual devices used for the test: iPhone 6s, Motorola and G5 - Samsung S20 5g - Latest news not fully responsive.
+Actual devices used for the test: iPhone 6s, Motorola and G5, Samsung S20 5g, Samsung Note 10 - Latest news not fully responsive.
 
 No broken links in the images, buttons or social networks.
 Web Browsers - Chrome and Firefox - working perfectly.
@@ -79,7 +85,7 @@ Web Browsers - Chrome and Firefox - working perfectly.
 ## Deployment
 
 Deployed at GitHub, clicking in settings, scroll down the page until GitHub pages. In the source section clink on the menu-drop, and choose the master-branch option. After doing this a web link will be available to use.
-The Art Hub: https://gersonvj.github.io/milestoneproject/
+The weather channel: https://gersonvj.github.io/TWC---THE-WEATHER-CHANNEL/
 
 
 
@@ -87,8 +93,7 @@ The Art Hub: https://gersonvj.github.io/milestoneproject/
 
 <h5>Content</h5>
 <ul>
-  <li>The definition of Art in the homepage: http://www.visual-arts-cork.com/drawing.htm</li>
-  <li>The Monet text in gallery section was taken from: https://www.brainyquote.com/authors/claude-monet-quotes</li>
+  <li>The description of the cities were taking from: www.google.com
 </ul>
 
 <h5>Media</h5>
@@ -98,5 +103,5 @@ The Art Hub: https://gersonvj.github.io/milestoneproject/
 
 <h5>Acknowledgements</h5>
 <ul>
-  <li>This project is thinking to help the artist people to show more themselves. A special thanks for Shane Byrne the artist that help me with the images for Art Hub.</li>
+  <li>This project is thinking to show the users the forecast and weather-related news from API as the newsletter using mailJS.
 </ul>
