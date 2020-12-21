@@ -96,7 +96,8 @@ Deployed using GitHub Pages accessed via the link below
    3. To publish the project to see it on the web go to Settings on Repo , scroll down to the heading, GitHub Pages. Under the Source setting, Use drop-down menu to select master branch as a publishing source and save. Refreshed the github page, and you are then given a url where your page is published; The site is now published on gitHub pages at https://gersonvj.github.io/TWC---THE-WEATHER-CHANNEL/
 
    4. To run this code on your local machine, you would go to my respository at https://github.com/gersonvj/TWC---THE-WEATHER-CHANNEL and on the home page on the right hand side just above all the files, you will see a green button that says, "Clone or download", this button will give you options to clone with HTTPS, open in desktop or download as a zip file. Then --> click the clipboard item to copy the Https address of the repo.
-   Open Git Bash/Terminal: 
+   
+   5. Open Git Bash/Terminal: 
    CD the working directory to the location where you want the cloned directory to be made.you can use mkdir command to make a new directory, then cd into it.Type git clone, and then paste the URL: https://github.com/gersonvj/TWC---THE-WEATHER-CHANNEL.git Press Enter. The clone is created.
    For more information about the above process; https://help.github.com/en/github/using-git/which-remote-url-should-i-use
 
