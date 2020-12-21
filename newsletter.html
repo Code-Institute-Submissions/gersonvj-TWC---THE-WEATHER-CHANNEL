@@ -60,15 +60,16 @@
     <main>
 
       <!-- Main jumbotron to highlight the page user is into -->
-        <div class="jumbotron text-white jumbotron-image shadow" style="background-image: url(./assets/images/newsletter.jpg);">
+        <div class="jumbotron text-black jumbotron-image shadow" style="background-image: url(./assets/images/newsletter.jpg);">
             <div class="container mt-5">
-                <h1 class="display-4 marginNewsletter">Newsletter</h1>
+                <h1 class="display-3 marginNewsletter">Newsletter</h1>
                 <p>The Weather Channel is dedicated to forecasting weather conditions to the cities of Dublin, London, Belfast and Cardiff</p>
-                <p>Subscribe to receive our Newsletter</p>
+                
             </div>
         </div>
      <!-- Form to subscribe for newsletter -->
         <div class="container-fluid ">
+            <h2>Subscribe to receive our Newsletter</h2>
            <div class="center-form">
                 <form onsubmit="return sendMail(this);" method="POST">
                     <input type="text" name="name" class="form-control mt-5" id="fullname" placeholder="Name" required/>

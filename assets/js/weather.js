@@ -53,9 +53,7 @@ function getWeather(location) {
         // TODO
         var currentLocalTime = response.location.localtime;
         var currentCountry = response.location.country;
-
-        console.log(response);
-
+        
         let tempeture = document.querySelector(".modal-api-temp");
         tempeture.textContent = currentWeatherCelsius + '°C';
 
@@ -76,6 +74,5 @@ function getWeather(location) {
         let windSpeed = document.querySelector(".modal-api-wind-speed");
         windSpeed.textContent = currentWindSpeed + 'km/h';
     });
-
 }
 

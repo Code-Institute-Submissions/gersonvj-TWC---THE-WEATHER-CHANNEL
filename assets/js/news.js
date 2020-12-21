@@ -10,9 +10,7 @@ const settings = {
 };
 
 $.ajax(settings).done(function (response) {
-    console.log(response);
-    
-    
+   
     var firstnews = response.articles[0].title;
     var secnews = response.articles[0].summary;
     var linknews = response.articles[0].link;
@@ -38,7 +36,6 @@ $.ajax(settings).done(function (response) {
 
     document.getElementById("news-api-link").href=  linknews;
     
-
     //second api news
     let news2 = document.querySelector(".news2");
     news2.textContent = secnews2;
@@ -74,6 +71,4 @@ $.ajax(settings).done(function (response) {
     news4b.textContent = fourthnews4b;
 
     document.getElementById("news4b").href=  fourthnews4b;
-
-   
 });
