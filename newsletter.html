@@ -1,101 +1,107 @@
 <!DOCTYPE html>
 
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <script src="https://kit.fontawesome.com/51dc8b3b8a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" /> 
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-        (function(){
-      emailjs.init("user_LmsGH6GqhL3fBEAxVUvt1");
-        })();
-    </script>  
+<html lang="en">
 
-    <title>TWC - The Weather Channel</title>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  </head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <script src="https://kit.fontawesome.com/51dc8b3b8a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("user_LmsGH6GqhL3fBEAxVUvt1");
+            })();
+        </script>
 
-  <body>
+        <title>TWC - The Weather Channel</title>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <a class="navbar-brand" href="index.html">T W C</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="newsletter.html">Newsletter</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="news.html">Latest News</a>
-                </li>
-          
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="newsletter.html">Newsletter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">Latest News</a>
+                    </li>
 
-                <ul class="social-networks">
-                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
-         
                 </ul>
-            </form>
-        
-        </div>
-    </nav>
+                <form class="form-inline my-2 my-lg-0">
 
-    <main>
+                    <ul class="social-networks">
+                        <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
 
-      <!-- Main jumbotron to highlight the page user is into -->
-        <div class="jumbotron text-black jumbotron-image shadow" style="background-image: url(./assets/images/newsletter.jpg);">
-            <div class="container mt-5">
-                <h1 class="display-3 marginNewsletter">Newsletter</h1>
-                <p>The Weather Channel is dedicated to forecasting weather conditions to the cities of Dublin, London, Belfast and Cardiff</p>
-                
-            </div>
-        </div>
-     <!-- Form to subscribe for newsletter -->
-        <div class="container-fluid ">
-            <h2>Subscribe to receive our Newsletter</h2>
-           <div class="center-form">
-                <form onsubmit="return sendMail(this);" method="POST">
-                    <input type="text" name="name" class="form-control mt-5" id="fullname" placeholder="Name" required/>
-                    <input type="text" name="emailaddress" class="form-control mt-5" id="emailaddress" placeholder="Email" required/>
-                    <button type="submit" class="btn btn-secondary center-block mt-5">Send Newsletter Request</button>
+                    </ul>
                 </form>
-            </div>
-        </div>
-        <hr>
- 
 
-    </main>
-    
-    <!-- page footer -->
-        <footer class="container">
+            </div>
+        </nav>
+
+        <main>
+
+            <!-- Main jumbotron to highlight the page user is into -->
+            <div class="jumbotron text-black jumbotron-image shadow"
+                style="background-image: url(./assets/images/newsletter.jpg);">
+                <div class="container mt-5">
+                    <h1 class="display-3 align-middle"><span class="h1spancolor">Newsletter</span></h1>
+                    <p><span class="h1spancolor">The Weather Channel is dedicated to forecasting weather conditions to the
+                            cities of Dublin, London, Belfast and Cardiff</span></p>
+
+                </div>
+            </div>
+            <!-- Form to subscribe for newsletter -->
+            <div class="container-fluid ">
+                <div class="center-form">
+                    <h2>Subscribe to receive our Newsletter</h2>
+                    <form onsubmit="return sendMail(this);" method="POST">
+                        <input type="text" name="name" class="form-control mt-5" id="fullname" placeholder="Name"
+                            required />
+                        <input type="text" name="emailaddress" class="form-control mt-5" id="emailaddress"
+                            placeholder="Email" required />
+                        <button type="submit" class="btn btn-secondary center-block mt-5">Send Newsletter Request</button>
+                    </form>
+                </div>
+            </div>
+            <hr>
+
+
+        </main>
+
+        <!-- page footer -->
+        <footer id="footer">
             <p>T W C © The Weather Channel</p>
-      
         </footer>
 
-    <!-- JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="assets/js/sendMail.js"></script>
+        <!-- JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="assets/js/sendMail.js"></script>
 
 
-</body>
+    </body>
+
 </html>
