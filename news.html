@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <script src="https://kit.fontawesome.com/51dc8b3b8a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+<html lang="en">
 
-    <title>TWC - The Weather Channel</title>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  </head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+        <script src="https://kit.fontawesome.com/51dc8b3b8a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
 
-  <body>
+        <title>TWC - The Weather Channel</title>
+
+    </head>
+
+    <body>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <a class="navbar-brand" href="index.html">T W C</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="index.html">T W C</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                </button>
+            </button>
 
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
@@ -41,34 +45,33 @@
                         <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
                         <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
-         
                     </ul>
                 </form>
-        
+
             </div>
         </nav>
 
         <main>
 
-        <!-- Main jumbotron to highlight the page user is into -->
-            <div class="jumbotron text-black jumbotron-image shadow" style="background-image: url(./assets/images/latestnews.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
-                <div class="container h1margin">
-                    <h1 class="display-3">The Weather Channel</h1>
-                    
-          
+            <!-- Main jumbotron to highlight the page user is into -->
+            <div class="jumbotron text-black jumbotron-image shadow hero-image">
+                <div class="container mt-5">
+                    <h1 class="display-3 align-middle"><span class="h1spancolor">The Weather Channel</span></h1>
+                    <p><span class="h1spancolor">Our Latest News</span></p>
+
                 </div>
             </div>
 
-        <!-- 4 Rows of news -->    
+            <!-- 4 Rows of news -->
             <div class="container">
-            
+
                 <div class="row">
-          
+
                     <div class="col-md-12 mt-5 overflow">
                         <h2 class="news1">news title</h2>
                         <p class="news1a">news summary</p>
                         <a class="news-api-link linkwidth" id="news-api-link" href=""></a>
-            
+
                     </div>
 
                     <div class="col-md-12 mt-5 overflow">
@@ -88,29 +91,30 @@
                         <p class="news4a">news summary</p>
                         <a class="news4b" id="news4b" href=""></a>
                     </div>
-          
+
                 </div>
 
-                    <hr>
+                <hr>
 
             </div> <!-- /container -->
 
         </main>
-        
+
 
         <!-- page footer -->
-        <footer class="container">
+        <footer id="footer">
             <p>T W C © The Weather Channel</p>
-      
+
         </footer>
 
-    <!-- JavaScript -->
+        <!-- JavaScript -->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="assets/js/news.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="assets/js/news.js"></script>
 
-</body>
+    </body>
+
 </html>
