@@ -1,3 +1,7 @@
+main {
+    margin-bottom: 50px;
+}
+
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
@@ -14,7 +18,8 @@
 }
 .h1spancolor {
     color: black;
-
+    font-weight: 400; text-shadow: 1px 1px #ffffff;
+    opacity: 1 !important;
 }
 
 .modal-weather {
@@ -69,3 +74,30 @@
 .overflow {
     overflow: hidden;
 }
+
+.hero-image {
+    background-image: url(../images/latestnews.jpg);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    opacity: 0.85;
+}
+
+@media (max-width: 550px) {
+    .hero-image { background-image: url(../images/news-cellphone.jpg); }
+}
+
+#footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:45px;
+    width:100%;
+    background: #343a40!important;
+ }
+
+ #footer p {
+     color: #fff;
+     padding: 10px 10px;
+ }
+
