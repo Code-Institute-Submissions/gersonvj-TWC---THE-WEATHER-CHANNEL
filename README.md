@@ -8,6 +8,18 @@ The channel broadcasts weather forecasts and weather-related news, along with a 
 
 As the user opens the home page, will see a jumbotrom that highlights the page the user is into. With four cards having a brief describle of the cities and a button that open a popup card to show some weather information of the city connected via API. Our latest news are conected via API aswell showing the last 4 weather-related news and the link for the user to see the news from the original website. The newsletter is a emailJS that send to the user a email with the temperature of the cities (not connected with an API).
 
+##Wireframes
+I created some wireframes to get an understanding of how I wanted to present the website on view. This way I could improve it where necessary or find alternate ways to produce a better product.
+
+Links to Wireframes
+I have uploaded my Wireframes up into the Wireframes Repository directory.
+<ul>There are 4 files in there:
+ <li> indextwc.jpg shows the ideia for the main page. 
+ <li> newstwc.jpg is a mockup of the presenteation of the news page.
+ <li> newslettertwc.jpg is the wireframe for the newsletter page.
+ <li> first example twc.pdf is the main concept used to develop the TWC website.
+</ul>
+
 ## Features
 
 <ul>Existing Features:
@@ -38,7 +50,7 @@ As the user opens the home page, will see a jumbotrom that highlights the page t
 
 <h4>Bootstrap: https://getbootstrap.com/docs/4.4/getting-started/introduction/</h4>
   <ul>
-    <li>Responsive framework</li>
+    <li>Responsive framework, used to create the layout structure of the site on all platforms (desktop, mobile, ipad). I also used bootstrap to create the NavBar, Newsletter and Contact Form</li>
   </ul>
 
 <h4>Hoover Library: https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css</h4>
@@ -62,8 +74,17 @@ As the user opens the home page, will see a jumbotrom that highlights the page t
   </ul>
     <h4>EmailJS: https://www.emailjs.com/</h4>
 <ul>
-    <li>Connect email service to send emails via JavaScript</li>
+    <li>Used to build the emailing system in the contact form. Connect email service to send emails via JavaScript</li>
   </ul>
+   <h4>Github: https://www.github.com/</h4>
+<ul>
+    <li>Apart of Microsoft, Github is the hosting software for website development</li>
+  </ul>
+   <h4>Gitpod: https://www.github.com/</h4>
+<ul>
+    <li>Used to create code and run within a browser</li>
+  </ul>
+
   
   
 
