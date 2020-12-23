@@ -104,7 +104,6 @@ Contact Form - Click on the Newsletter Page on the Header.
 <ul>
    <li>Try to submit the form with empty fields and you will get an error message that requests to fill out form, starting with the Name input.
    <li>Try to submit the form without a valid syntaxt email will request the user to input a valid email address.
-   <li>If the user does not fill out the Message input, the form will request to fill it out before submitting request.
    <li>Once you have submitted with all fields filled out, the Console should read Success if successful, or Failure if there is an error.
    <li>You should receieve an alert box saying 'Message Recieved' if successful.
    <li>You should receieve an automated reply to the email used to send coming from the website email.
