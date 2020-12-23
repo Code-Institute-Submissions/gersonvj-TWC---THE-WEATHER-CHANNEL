@@ -20,6 +20,7 @@ main {
     color: black;
     font-weight: 400; text-shadow: 1px 1px #ffffff;
     opacity: 1 !important;
+    
 }
 
 .modal-weather {
@@ -77,14 +78,15 @@ main {
 
 .hero-image {
     background-image: url(../images/latestnews.jpg);
-    background-position: center !important;
+    background-position: top !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     opacity: 0.85;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 770px) {
     .hero-image { background-image: url(../images/news-cellphone.jpg); }
+    .h1media {font-size: 67px;}
 }
 
 #footer {
@@ -100,4 +102,6 @@ main {
      color: #fff;
      padding: 10px 10px;
  }
+
+
 
