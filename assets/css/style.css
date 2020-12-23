@@ -76,6 +76,10 @@ main {
     overflow: hidden;
 }
 
+.jumbotron-image {
+    height: 500px;
+}
+
 .hero-image {
     background-image: url(../images/latestnews.jpg);
     background-position: top !important;
