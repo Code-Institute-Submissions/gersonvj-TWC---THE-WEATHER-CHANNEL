@@ -2,7 +2,7 @@ function sendMail(contactForm) {
 
     if(!emailIsValid(contactForm.emailaddress.value)){
         alert("Please enter a valid email address")
-        return;
+        return false;
     }
     
     emailjs.send("service_gn6ow6m", "template_y77eu9a", {
