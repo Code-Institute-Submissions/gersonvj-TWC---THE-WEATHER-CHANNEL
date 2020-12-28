@@ -95,25 +95,45 @@ Chrome Dev Tools was used to test out my code and be able to make adjustments. T
 JSHint was used to test out my JavaScript. It can be found here
 
 <ul>
-<li>05/11/2020 - Not reponsive for phone devices, background pictures for jumbotrom not working, h1 headers need more margin.
-<li>06/11/2020 - Homepage responsive for all devices, newsletter and latest news not responsive for phone devices. (update 11/12/2020): All the pages are responsive for the devices tested below and some devices tsted in the chrome developer tool.</li>
-<li>08/11/2020 - Weather cards background not working, weather icon from API not showing in the cards. (update 10/12/2020): All weather cards have a background image from the city the user is looking for it. (update 11/12/2020): The Icon information comming from the API is showing perfect in the weather cards.</li>
-<li>09/11/2020 - Newsletter responsive for phone devices. (update 17/12/2020): All the forms in the newsletter section have a defensive design, not letting the user making mistakes when subscribe to the newsletter.</li>
-
-Contact Form - Click on the Newsletter Page on the Header.
-<ul>
-   <li>Try to submit the form with empty fields and you will get an error message that requests to fill out form, starting with the Name input.
-   <li>Try to submit the form without a valid syntaxt email will request the user to input a valid email address.
-   <li>Once you have submitted with all fields filled out, the Console should read Success if successful, or Failure if there is an error.
-   <li>You should receieve an alert box saying 'Message Recieved' if successful.
-   <li>You should receieve an automated reply to the email used to send coming from the website email.
+<li>05/11/2020 - Not reponsive for phone devices, background pictures for jumbotrom not working, h1 headers need more margin.</li>
+ <ul>
+  <li>(update 10/12/2020) - reponsive for phone devices, background pictures working in jumboitrom and h1 margins adequate for the UX </li>
+ </ul>
+<li>06/11/2020 - Homepage responsive for all devices, newsletter and latest news not responsive for phone devices.</li>
+ <ul>
+   <li>(update 11/12/2020): All the pages are responsive for the devices tested below and some devices tsted in the chrome developer tool.</li>
+ </ul>
+<li>08/11/2020 - Weather cards background not working, weather icon from API not showing in the cards. 
+ <ul>
+  <li>(update 10/12/2020): All weather cards have a background image from the city the user is looking for it.</li>
+  <li> (update 11/12/2020): The Icon information comming from the API is showing perfect in the weather cards.</li>
+ </ul>
+<li>09/11/2020 - Newsletter responsive for phone devices, no defensive desing in the forms. 
+ <ul>
+  <li>(update 17/12/2020): All the forms in the newsletter section have a defensive design, not letting the user making mistakes when subscribe to the newsletter.</li>
+   <li>Try to submit the form with empty fields and you will get an error message that requests to fill out form, starting with the Name input.</li>
+   <li>Try to submit the form without a valid syntaxt email will request the user to input a valid email address.</li>
+   <li>Once you have submitted with all fields filled out, the Console should read Success if successful, or Failure if there is an error.</li>
+  <li>You should receieve an alert box saying 'Message Recieved' if successful.</li>
+   <li>You should receieve an automated reply to the email used to send coming from the website email.</li>
 </ul>
 
-<li>09/11/2020 - Latest news link are outside the row, making not responsive.(update 23/12/2020): changed the way to show the link for the user in the news page, make it easier to be responsive, instead of show the whole link I changed to a "Read More" link that suits for all the devices and make it responsive.</li>
-<li>10/11/2020 - All pages are responsive. Some images are streching. (update 15/12/2020): some images where changed to make more user friendly and responsive. On the News section the image for laptops and Ipads are differente from the phones devicesm make it responsive and not streching the images.</li>
+<li>09/11/2020 - Latest news link are outside the row, making not responsive.</li>
+ <ul>
+  <li>(update 23/12/2020): changed the way to show the link for the user in the news page, make it easier to be responsive, instead of show the whole link I changed to a "Read More" link that suits for all the devices and make it responsive.</li>
+ </ul>
+ <ul>
+<li>10/11/2020 - All pages are responsive. Some images are streching. 
+ <ul>
+  <li>(update 15/12/2020): some images where changed to make more user friendly and responsive. On the News section the image for laptops and Ipads are differente from the phones devicesm make it responsive and not streching the images.</li>
+ </ul>  
 </ul>
 
 Actual devices used for the test: iPhone 6s, Motorola and G5, Samsung S20 5g, Samsung Note 10 - Latest news not fully responsive.
+<ul>
+ <li>(update 21/12/2020) - The link problem was solved changing the view of the link for the user for a "Read More" link, in this way the link is not broken the website, making fully responsive for phone devices.</li>
+</ul>
+  
  
 
 No broken links in the images, buttons or social networks.
