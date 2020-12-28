@@ -110,11 +110,11 @@ JSHint was used to test out my JavaScript. It can be found here
  </ul>
 <li>09/11/2020 - Newsletter responsive for phone devices, no defensive desing in the forms. 
  <ul>
-  <li>(update 17/12/2020): All the forms in the newsletter section have a defensive design, not letting the user making mistakes when subscribe to the newsletter.</li>
+   <li>(update 17/12/2020): All the forms in the newsletter section have a defensive design, not letting the user making mistakes when subscribe to the newsletter.</li>
    <li>Try to submit the form with empty fields and you will get an error message that requests to fill out form, starting with the Name input.</li>
    <li>Try to submit the form without a valid syntaxt email will request the user to input a valid email address.</li>
    <li>Once you have submitted with all fields filled out, the Console should read Success if successful, or Failure if there is an error.</li>
-  <li>You should receieve an alert box saying 'Message Recieved' if successful.</li>
+   <li>You should receieve an alert box saying 'Message Recieved' if successful.</li>
    <li>You should receieve an automated reply to the email used to send coming from the website email.</li>
 </ul>
 
@@ -122,7 +122,7 @@ JSHint was used to test out my JavaScript. It can be found here
  <ul>
   <li>(update 23/12/2020): changed the way to show the link for the user in the news page, make it easier to be responsive, instead of show the whole link I changed to a "Read More" link that suits for all the devices and make it responsive.</li>
  </ul>
- <ul>
+ 
 <li>10/11/2020 - All pages are responsive. Some images are streching. 
  <ul>
   <li>(update 15/12/2020): some images where changed to make more user friendly and responsive. On the News section the image for laptops and Ipads are differente from the phones devicesm make it responsive and not streching the images.</li>
