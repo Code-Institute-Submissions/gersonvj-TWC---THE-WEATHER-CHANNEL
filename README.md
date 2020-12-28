@@ -8,11 +8,11 @@ The channel broadcasts weather forecasts and weather-related news, along with a 
 
 As the user opens the home page, will see a jumbotrom that highlights the page the user is into. With four cards having a brief describle of the cities and a button that open a popup card to show some weather information of the city connected via API. Our latest news are conected via API aswell showing the last 4 weather-related news and the link for the user to see the news from the original website. The newsletter is a emailJS that send to the user a email with the temperature of the cities (not connected with an API).
 
-##Wireframes
+## Wireframes
 I created some wireframes to get an understanding of how I wanted to present the website on view. This way I could improve it where necessary or find alternate ways to produce a better product.
 
 Links to Wireframes
-I have uploaded my Wireframes up into the Wireframes Repository directory.
+I have uploaded my Wireframes up into the Wireframes Repository directory: https://github.com/gersonvj/TWC---THE-WEATHER-CHANNEL/tree/master/assets/wireframes.
 <ul>There are 4 files in there:
  <li> indextwc.jpg shows the ideia for the main page. 
  <li> newstwc.jpg is a mockup of the presenteation of the news page.
