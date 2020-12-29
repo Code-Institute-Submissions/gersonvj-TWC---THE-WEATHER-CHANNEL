@@ -138,7 +138,7 @@ JSHint was used to test out my JavaScript. https://jshint.com/
 <ul>
 <li>05/11/2020 - Not reponsive for phone devices, background pictures for jumbotrom not working, h1 headers need more margin.</li>
  <ul>
-  <li>(update 10/12/2020) - reponsive for phone devices, background pictures working in jumboitrom and h1 margins adequate for the UX </li>
+  <li>(update 10/12/2020) - reponsive for phone devices, background pictures working in jumbotrom and h1 margins adequate for the UX </li>
  </ul>
 <li>06/11/2020 - Homepage responsive for all devices, newsletter and latest news not responsive for phone devices.</li>
  <ul>
@@ -166,7 +166,7 @@ JSHint was used to test out my JavaScript. https://jshint.com/
  
 <li>10/11/2020 - All pages are responsive. Some images are streching. 
  <ul>
-  <li>(update 15/12/2020): some images where changed to make more user friendly and responsive. On the News section the image for laptops and Ipads are differente from the phones devicesm make it responsive and not streching the images.</li>
+  <li>(update 15/12/2020): some images where changed to make more user friendly and responsive. On the News section the image for laptops and Ipads are different from the phones devices make it responsive and not streching the images.</li>
  </ul>  
 </ul>
 
@@ -174,9 +174,8 @@ Actual devices used for the test: iPhone 6s, Motorola and G5, Samsung S20 5g, Sa
 <ul>
  <li>(update 21/12/2020) - The link problem was solved changing the view of the link for the user for a "Read More" link, in this way the link is not broken the website, making fully responsive for phone devices.</li>
 </ul>
-  
  
-
+ 
 No broken links in the images, buttons or social networks.
 Web Browsers - Chrome and Firefox - working perfectly.
 
