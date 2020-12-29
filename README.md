@@ -9,6 +9,8 @@ The channel broadcasts weather forecasts and weather-related news, along with a 
 
 ### [View TWC website in github pages](https://gersonvj.github.io/TWC---THE-WEATHER-CHANNEL/)
 
+
+# Table of contents
 - [UX](#ux)
     - [Website goals](#website-goals)
     - [User Stories](#user-stories)        
