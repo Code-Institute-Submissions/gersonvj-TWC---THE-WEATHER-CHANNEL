@@ -203,9 +203,25 @@ Deployed using GitHub Pages accessed via the link below
 
 # Credits
 
+* To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+* Ideas and knowledge library:
+
+    * [w3schools.com](https://www.w3schools.com)
+
+    * [getbootstrap.com/docs](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+        I used code for navbar, jumbotron and card from Bootstrap.
+
+### Code
+
+* Bootstrap: [Burger menu](https://getbootstrap.com/docs/4.5/components/navbar/#text)
+* Bootstrap: [Jumbotron](https://getbootstrap.com/docs/4.5/components/jumbotron/)
+* Bootstrap: [Form](https://getbootstrap.com/docs/4.5/components/forms/)
+
 <h5>Content</h5>
+
 <ul>
-  <li>The description of the cities were taking from: www.google.com
+    <li>The description of the cities were taking from: www.google.com</li>
 </ul>
 
 <h5>Media</h5>
@@ -215,5 +231,5 @@ Deployed using GitHub Pages accessed via the link below
 
 <h5>Acknowledgements</h5>
 <ul>
-  <li>This project is thinking to show the users the forecast and weather-related news from API as the newsletter using mailJS.
+  <li>This project is thinking to show the users the forecast and weather-related news from API as the newsletter using mailJS.</li>
 </ul>
