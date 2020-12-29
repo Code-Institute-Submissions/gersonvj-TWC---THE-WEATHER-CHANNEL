@@ -7,7 +7,7 @@ Welcome,
 For my Milestone 2 Project with [Code Institute](https://codeinstitute.net/), I had the challenge to incorporate a website using JavaScript. I decided to create a weather channel to make a interactive API to bring the latest online weather and news for the users.
 The channel broadcasts weather forecasts and weather-related news, along with a newsletter. The rapidAPI update the information of the weather and weather-related news.
 
-## [View life website in github pages](https://gersonvj.github.io/TWC---THE-WEATHER-CHANNEL/)
+### [View TWC website in github pages](https://gersonvj.github.io/TWC---THE-WEATHER-CHANNEL/)
 
 - [UX](#ux)
     - [Website goals](#website-goals)
