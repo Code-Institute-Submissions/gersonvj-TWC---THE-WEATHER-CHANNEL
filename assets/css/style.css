@@ -93,7 +93,7 @@ main {
 
 @media (max-width: 770px) {
     .hero-image { background-image: url(../images/news-cellphone.jpg); }
-    .h1media {font-size: 65px;}
+    .h1media {font-size: 63px;}
 }
 
 #footer {
