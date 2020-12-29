@@ -1,5 +1,7 @@
 <h1>TWC - The Weather Channel</h1>
 
+<img src="assets/wireframes/mockup2.jpg" style="margin: 0;">
+
 Welcome,
 
 The channel broadcasts weather forecasts and weather-related news, along with a newsletter. The rapidAPI update the information of the weather and weather-related news.
