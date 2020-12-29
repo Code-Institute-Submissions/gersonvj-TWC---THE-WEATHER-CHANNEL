@@ -1,9 +1,9 @@
-let locations = ["dublin", "london", "belfast", "cardiff"]
+let locations = ["dublin", "london", "belfast", "cardiff"];
 locations.forEach(location => {
     $('#' + location).click(function () {
-        getWeather(location)
-    })
-})
+        getWeather(location);
+    });
+});
 
 function setBackgroundImage(location) {
 
@@ -15,7 +15,7 @@ function setBackgroundImage(location) {
         $('.modal-content').css('background-repeat', 'repeat-x');
     } else if(location === 'belfast') {
         $('.modal-content').css('background-image', 'url("./assets/images/belfast.jpg")');
-        $('.modal-content').css('background-repeat', 'repeat-x')
+        $('.modal-content').css('background-repeat', 'repeat-x');
     } else if(location === 'cardiff') {
         $('.modal-content').css('background-image', 'url("./assets/images/cardiff.jpg")');
         $('.modal-content').css('background-repeat', 'repeat-x');
