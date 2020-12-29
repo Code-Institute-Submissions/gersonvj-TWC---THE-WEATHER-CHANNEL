@@ -77,45 +77,51 @@ There are 4 files in there:
   </ul>
 
 
-<h4>CSS3: https://en.wikipedia.org/wiki/Cascading_Style_Sheets</H4>
+[CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 <ul>
     <li>The design to create a good user experience</li>
   </ul>
 
 
-<h4>Bootstrap: https://getbootstrap.com/docs/4.4/getting-started/introduction/</h4>
+[Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
   <ul>
     <li>Responsive framework, used to create the layout structure of the site on all platforms (desktop, mobile, ipad). I also used bootstrap to create the NavBar, Newsletter and Contact Form</li>
   </ul>
 
-<h4>Hoover Library: https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css</h4>
+[Hoover Library](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css)
 <ul>
     <li>Library used to hoover the buttons </li>
   </ul>
 
  
-  <h4>JavaScript: https://en.wikipedia.org/wiki/JavaScript</h4>
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 <ul>
-    <li>Used for some API integration as the function for the Contact Form and EmailJS</li>
+    <li>JavaScript is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages. It is an interpreted programming language with object-oriented capabilities</li>
   </ul>
   
-   <h4>RapidAPI: https://rapidapi.com/marketplace</h4>
+[RapidAPI](https://rapidapi.com/marketplace</h4>)
   <ul>
     <li>RapidAPI, the world's largest API Marketplace, is used by over one million developers to find, test, and connect to thousands of APIs — all with a single account, API Key, and SDK.</li>
     <li>You will want to begin by signing up for a free RapidAPI Account if you don't already have one. An account is required to test APIs, integrate them into your application, and track analytics. Sign up from the Homepage www.rapidapi.com by clicking the button in the top right corner.</li>
     <li>You can learn how to use the RapidAPI Marketplace to make your first API call, and integrate APIs into your application fast clicking in this website: https://docs.rapidapi.com/docs/basics-creating-a-project</li>
   </ul>
-    <h4>EmailJS: https://www.emailjs.com/</h4>
+
+[EmailJS](https://www.emailjs.com/)
 <ul>
+    <li>EmailJS is not sending the emails directly. Instead, it allows users to connect their email services, through which the emails will be sent.</li>
+    <li>You need to create a free account to use the service. https://dashboard.emailjs.com/sign-up </li>
+    <li>To start using the service, you can use these steps: https://www.emailjs.com/docs/tutorial/adding-email-service/</li>
     <li>Used to build the emailing system in the contact form. Connect email service to send emails via JavaScript</li>
   </ul>
-   <h4>Github: https://www.github.com/</h4>
+  
+[Github](https://www.github.com/)
 <ul>
-    <li>Apart of Microsoft, Github is the hosting software for website development</li>
+    <li>GitHub is a Git repository hosting service, but it adds many of its own features. While Git is a command line tool, GitHub provides a Web-based graphical interface. It also provides access control and several collaboration features, such as a wikis and basic task management tools for every project</li>
   </ul>
-   <h4>Gitpod: https://www.github.com/</h4>
+  
+[Gitpod](https://www.gitpod.io/)
 <ul>
-    <li>Used to create code and run within a browser</li>
+    <li>Gitpod is an open source platform for automated and ready-to-code development environments that blends into your existing workflow. It enables developers to describe their dev environment as code and start instant and fresh development environments for each new task directly from your browser.</li>
   </ul>
 
   
