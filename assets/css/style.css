@@ -18,8 +18,9 @@ main {
 }
 .h1spancolor {
     color: black;
-    font-weight: 400; text-shadow: 1px 1px #ffffff;
-    opacity: 1 !important;
+    font-weight: 600; text-shadow: 1px 1px #ffffff;
+    opacity: 0.5 !important;
+    background-color: whitesmoke;
     
 }
 
