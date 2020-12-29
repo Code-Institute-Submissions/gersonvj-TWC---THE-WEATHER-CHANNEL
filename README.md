@@ -183,8 +183,7 @@ Web Browsers - Chrome and Firefox - working perfectly.
 # Deployment
 
 Deployed using GitHub Pages accessed via the link below
- - https://gersonvj.github.io/TWC---THE-WEATHER-CHANNEL/
- index.html is main content page - all other navigatable via this webpage
+ - https://gersonvj.github.io/TWC---THE-WEATHER-CHANNEL/index.html is main content page - all other navigatable via this webpage
 
   **Process**
    1. Created a Github account at https://github.com My account: https://github.com/gersonvj
