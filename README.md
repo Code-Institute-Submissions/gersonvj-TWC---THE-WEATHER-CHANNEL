@@ -4,9 +4,26 @@ Welcome,
 
 The channel broadcasts weather forecasts and weather-related news, along with a newsletter. The rapidAPI update the information of the weather and weather-related news.
 
-## Ux Structure
+# Ux Structure
 
-As the user opens the home page, will see a jumbotrom that highlights the page the user is into. With four cards having a brief describle of the cities and a button that open a popup card to show some weather information of the city connected via API. Our latest news are conected via API aswell showing the last 4 weather-related news and the link for the user to see the news from the original website. The newsletter is a emailJS that send to the user a email with the temperature of the cities (not connected with an API).
+## Website Goal
+
+<ul>
+ <li>As the user opens the home page, will see a jumbotrom that highlights the page the user is into. With four cards having a brief describle of the cities and a button that open a popup card to show some weather information of the city connected via API.</li>
+ <li>Our latest news are conected via API aswell showing the last 4 weather-related news with a "Read More" link to the user see the news from the original website.</li>
+ <li>The newsletter is a emailJS that send to the user a email with the temperature of the cities (not connected with an API).</li>
+</ul>
+
+## User Stories
+
+   * I want to go onto a responsive page with minimal loading time.
+   * I want to go onto a page and understand what sort of content is available.
+   * I want an easy and accessable navigation menu.
+   * I want to know what is the weather in these cities.
+   * I want to know more about wheater with online news.
+   * I want to be able to read more about the news showing in the page.
+   * I want to receive a email with the weather of these cities.
+   * I want the other useful information including social media links.
 
 ## Wireframes
 I created some wireframes to get an understanding of how I wanted to present the website on view. This way I could improve it where necessary or find alternate ways to produce a better product.
