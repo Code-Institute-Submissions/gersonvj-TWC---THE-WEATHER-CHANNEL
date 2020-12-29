@@ -52,6 +52,7 @@ I have uploaded my Wireframes up into the Wireframes Repository directory: https
  <li> [**newstwc.jpg**](https://github.com/gersonvj/TWC---THE-WEATHER-CHANNEL/blob/master/assets/wireframes/newstwc.jpg) is a mockup of the presenteation of the news page.
  <li> [**newslettertwc.jpg**](https://github.com/gersonvj/TWC---THE-WEATHER-CHANNEL/blob/master/assets/wireframes/newslettertwc.jpg) is the wireframe for the newsletter page.
  <li> [**first example twc.pdf**](https://github.com/gersonvj/TWC---THE-WEATHER-CHANNEL/blob/master/assets/wireframes/first%20example%20twc.pdf) is the main concept used to develop the TWC website.
+     [**Wireframes Repository**](https://github.com/jakefernihough/BC-Canal-Walks/tree/master/assets/Wireframes)
 </ul>
 
 # Features
