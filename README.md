@@ -48,7 +48,7 @@ I created some wireframes to get an understanding of how I wanted to present the
 Links to Wireframes
 I have uploaded my Wireframes up into the Wireframes Repository directory: https://github.com/gersonvj/TWC---THE-WEATHER-CHANNEL/tree/master/assets/wireframes.
 <ul>There are 4 files in there:
- <li> indextwc.jpg(assets/wireframes/mockup2.jpg) shows the ideia for the main page. 
+ <li> [indextwc.jpg](https://github.com/gersonvj/TWC---THE-WEATHER-CHANNEL/blob/master/assets/wireframes/indextwc.jpg) shows the ideia for the main page. 
  <li> newstwc.jpg is a mockup of the presenteation of the news page.
  <li> newslettertwc.jpg is the wireframe for the newsletter page.
  <li> first example twc.pdf is the main concept used to develop the TWC website.
