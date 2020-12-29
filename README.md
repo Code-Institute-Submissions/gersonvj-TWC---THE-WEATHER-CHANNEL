@@ -7,6 +7,8 @@ Welcome,
 For my Milestone 2 Project with [Code Institute](https://codeinstitute.net/), I had the challenge to incorporate a website using JavaScript. I decided to create a weather channel to make a interactive API to bring the latest online weather and news for the users.
 The channel broadcasts weather forecasts and weather-related news, along with a newsletter. The rapidAPI update the information of the weather and weather-related news.
 
+## [View life website in github pages](https://gersonvj.github.io/TWC---THE-WEATHER-CHANNEL/)
+
 - [UX](#ux)
     - [Website goals](#website-goals)
     - [User Stories](#user-stories)        
@@ -46,7 +48,7 @@ I created some wireframes to get an understanding of how I wanted to present the
 Links to Wireframes
 I have uploaded my Wireframes up into the Wireframes Repository directory: https://github.com/gersonvj/TWC---THE-WEATHER-CHANNEL/tree/master/assets/wireframes.
 <ul>There are 4 files in there:
- <li> indextwc.jpg shows the ideia for the main page. 
+ <li> indextwc.jpg(assets/wireframes/mockup2.jpg) shows the ideia for the main page. 
  <li> newstwc.jpg is a mockup of the presenteation of the news page.
  <li> newslettertwc.jpg is the wireframe for the newsletter page.
  <li> first example twc.pdf is the main concept used to develop the TWC website.
