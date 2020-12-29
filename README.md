@@ -4,11 +4,24 @@
 
 Welcome,
 
+For my Milestone 2 Project with [Code Institute](https://codeinstitute.net/), I had the challenge to incorporate a website using JavaScript. I decided to create a weather channel to make a interactive API to bring the latest online weather and news for the users.
 The channel broadcasts weather forecasts and weather-related news, along with a newsletter. The rapidAPI update the information of the weather and weather-related news.
+
+- [UX](#ux)
+    - [Website goals](#website-goals)
+    - [User Stories](#user-stories)        
+    - [Wireframes](#wireframes)
+- [Features](#features)
+- [Technology](#Technologies-Used)
+- [Testing](#testing) 
+- [Deployment](#deployment)
+- [Credits](#credits)
+
+
 
 # Ux Structure
 
-## Website Goal
+## Website Goals
 
 <ul>
  <li>As the user opens the home page, will see a jumbotrom that highlights the page the user is into. With four cards having a brief describle of the cities and a button that open a popup card to show some weather information of the city connected via API.</li>
@@ -39,7 +52,7 @@ I have uploaded my Wireframes up into the Wireframes Repository directory: https
  <li> first example twc.pdf is the main concept used to develop the TWC website.
 </ul>
 
-## Features
+# Features
 
 <ul>Existing Features:
   <li>Home page: The ideia is to make the user to click on the weather forecast buttons to see the forecast weather.</li>
@@ -53,7 +66,7 @@ I have uploaded my Wireframes up into the Wireframes Repository directory: https
   <li>Latest News: a country/city search button for the latest weather-related news </li>
 </ul>
 
-## Technologies Used
+# Technologies Used
 
 <H4>HTML5: https://en.wikipedia.org/wiki/HTML5</H4>
 <ul>
@@ -105,7 +118,7 @@ I have uploaded my Wireframes up into the Wireframes Repository directory: https
   
   
 
-## Test
+# Testing
 
 W3C Validator was used to validate all my code and outline any errors. https://validator.w3.org/
 
@@ -159,7 +172,7 @@ No broken links in the images, buttons or social networks.
 Web Browsers - Chrome and Firefox - working perfectly.
 
 
-## Deployment
+# Deployment
 
 Deployed using GitHub Pages accessed via the link below
  - https://gersonvj.github.io/TWC---THE-WEATHER-CHANNEL/
@@ -180,7 +193,7 @@ Deployed using GitHub Pages accessed via the link below
 
 
 
-## Credits
+# Credits
 
 <h5>Content</h5>
 <ul>
