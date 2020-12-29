@@ -20,7 +20,6 @@ function setBackgroundImage(location) {
         $('.modal-content').css('background-image', 'url("./assets/images/cardiff.jpg")');
         $('.modal-content').css('background-repeat', 'repeat-x');
     }
-
 }
 
 function getWeather(location) {
@@ -50,7 +49,7 @@ function getWeather(location) {
 
         setBackgroundImage(location);
 
-        // TODO
+        // API DATA MANIPULATION
         var currentLocalTime = response.location.localtime;
         var currentCountry = response.location.country;
         

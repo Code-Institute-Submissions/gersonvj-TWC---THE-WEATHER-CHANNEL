@@ -12,6 +12,11 @@ main {
     background-repeat: no-repeat;
 }
 
+.backgd{
+    opacity: 0.5 !important;
+    background-color: whitesmoke;
+}
+
 .h1margin {
     margin-top: 50px;
     opacity: 0.5 !important;
@@ -22,8 +27,7 @@ main {
     color: black;
     font-weight: 600; text-shadow: 1px 1px #ffffff;
     opacity: 1 !important;
-    
-    
+        
 }
 
 .modal-weather {
