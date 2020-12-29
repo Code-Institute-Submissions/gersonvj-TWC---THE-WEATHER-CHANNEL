@@ -88,11 +88,11 @@ I have uploaded my Wireframes up into the Wireframes Repository directory: https
 
 ## Test
 
-W3C Validator was used to validate all my code and outline any errors. Found here
+W3C Validator was used to validate all my code and outline any errors. https://validator.w3.org/
 
-Chrome Dev Tools was used to test out my code and be able to make adjustments. This was a constant use of mine throughout my development. More information here
+Chrome Dev Tools was used to test out my code and be able to make adjustments. This was a constant use of mine throughout my development. https://developers.google.com/web/tools/chrome-devtools
 
-JSHint was used to test out my JavaScript. It can be found here
+JSHint was used to test out my JavaScript. https://jshint.com/
 
 <ul>
 <li>05/11/2020 - Not reponsive for phone devices, background pictures for jumbotrom not working, h1 headers need more margin.</li>
