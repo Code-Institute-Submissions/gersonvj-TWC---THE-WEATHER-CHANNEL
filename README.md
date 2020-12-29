@@ -71,7 +71,7 @@ There are 4 files in there:
 
 # Technologies Used
 
-<H4>[HTML5](https://en.wikipedia.org/wiki/HTML5):</H4>
+[HTML5](https://en.wikipedia.org/wiki/HTML5)
 <ul>
     <li>The main structure to create the webpage</li>
   </ul>
